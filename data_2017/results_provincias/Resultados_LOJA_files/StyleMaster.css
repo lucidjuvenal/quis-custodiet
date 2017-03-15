@@ -1,0 +1,165 @@
+﻿#encabezado {
+    height: 23px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #1A84B3;
+}
+
+#contenido {
+    /* padding: 2px 8px 8px 8px; /*(top, right, bottom, and left)*/
+   
+    color: #424242;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+#contenido1 {
+    margin: 0 auto 0 auto;
+}
+
+#header {
+    border-bottom: 3px solid #c0c0c0;
+    text-align: left;
+    color: #000000;
+    margin: 0;
+    padding: 5px 0px;
+    position: relative;
+    -pie-box-shadow: 0px 4px 15px #BFBFBF;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.25);
+    background-color: rgb(40, 141, 191);
+    border-style: none;
+    border-color: transparent;
+    border-radius: 0px 0px 0px 0px;
+    background-image: url('../imagenes/bannerHead-02.png');
+    background-size: 100% ;
+    min-width:1244px;
+}
+
+#banerheader {
+    height: 71px;
+    float: right;
+    border-radius: 0px 0px 20px 0px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#logoCne {
+    height: 60px;   
+}
+
+#tableHeader td {
+    width: 20%;
+    padding: 0;
+    border-spacing: 0;
+}
+
+.nomSistema {
+    font-size: 21px;
+    text-align: right;
+    color: #0F4A82;
+    margin-left: 5px;    
+}
+
+.nomUsuario {
+    font-size: 13px;
+    text-align: right;
+    color: #0F4A82;
+    font-weight: bold;
+}
+
+.rolUsuario {
+    font-size: 12px;
+    text-align: right;
+    color: #0F4A82;
+}
+
+
+.botonLabel {
+    color: #0F4A82;
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0px;
+}
+
+
+#tableHeader {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+
+#contentJunta {
+    width: 705px;
+    height: 550px;
+    margin: 0 auto 0 auto;
+}
+
+#page {
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FAFAFA;
+}
+
+#content {
+    width: 100%;
+}
+
+#main {
+    min-height: calc(100vh - 70px);
+}
+
+#fondodos {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+#contenedorPag {
+    margin: 5px 0px 10px 0px; /*(top, right, bottom, and left)*/
+    background: #FAFAFA;
+}
+
+#mainMenu {
+    margin-top: 0px;
+    width: 100%;
+    background: #FAFAFA;
+}
+
+#footer2 {
+    text-align: center;
+    padding: 8px;
+    /*margin: 8px 0px;*/
+    border-top: 1px solid #c0c0c0;
+    clear: both;
+    -pie-box-shadow: 0px 4px 15px #BFBFBF;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.25);
+    background-color: #E5E5E5 #E5E5E5;
+    background-color: #E5E5E5;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.ir-arriba {
+    padding: 14px;
+    display: inline-block;
+    background: #476A95;
+    color: #fff;
+    position: fixed;
+    font-size: 20px;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+    background-image: url(../imagenes/arriba.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
